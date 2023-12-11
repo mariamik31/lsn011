@@ -1,0 +1,163 @@
+body {
+background-image: url(1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 50px  50px  50px  50px  50px  50px  50px  50px 50px
+
+}
+
+.signup {
+    grid-area: 1 / 2 / 1 / 4;
+}
+
+.fname {
+    grid-area: 3 / 2;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+} 
+
+#f {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    display: block;
+}
+
+.lastname {
+    grid-area: 3 / 3;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#l {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    display: block;
+}
+
+.mail {
+    grid-area: 5 / 2;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#m {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    display: block;
+}
+
+.contact {
+    grid-area: 5 / 3;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#c {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    display: block;
+}
+
+.gender {
+    grid-area: 7 / 3;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+
+.date {
+    grid-area: 7 / 2;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#d {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    display: block;
+}
+
+.password {
+    grid-area: 9 / 2;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#p1 {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    display: block;
+}
+
+.password2 {
+    grid-area: 9 / 3;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#p2 {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    display: block;
+}
+
+.button {
+    grid-area: 11 / 2;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#b {
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.428)
+
+}
+
+@media screen and (max-width: 768px) {
+    .conteiner {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+}    
+
+
+.signup {
+    
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.702);
+}
